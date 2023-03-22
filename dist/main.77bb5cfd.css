@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
   height: 25em;
   border-radius: 10px;
   padding: 1em 1em;
-  background-color: aliceblue;
+  background-color: #f5f7f8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,6 +51,28 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+  font-weight: bold;
+}
+.container .inputs label input[type=text] {
+  height: 2.5em;
+  border-radius: 10px;
+  border: none;
+  padding: 0 10px;
+  background-color: #c9c6c6;
+}
+.container .inputs label input[type=text]:focus {
+  outline: #363636 solid 2px;
+}
+.container .inputs .duo-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+.container .inputs .duo-info > :nth-child(1) {
+  width: 70%;
+}
+.container .inputs .duo-info > :nth-child(2) {
+  width: 30%;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
