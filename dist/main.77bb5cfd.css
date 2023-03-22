@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #807171;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.container {
+  width: 23em;
+  height: 25em;
+  border-radius: 10px;
+  padding: 1em 1em;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+.container .payment-method {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.container .payment-method i {
+  font-size: 1.4rem;
+  background-color: #c4c3c3;
+  padding: 10px 3em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.container .payment-method i:hover {
+  background-color: #000;
+  color: #fff;
+}
+.container .inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1em;
+}
+.container .inputs label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */

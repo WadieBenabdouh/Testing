@@ -15,6 +15,27 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="payment-method">
+            <i class="fa-solid fa-credit-card"></i>
+            <i class="fa-brands fa-paypal"></i>
+        </div>
+
+        <div class="inputs">
+            <label for="name">Name on card
+                <input id="name" type="text" placeholder="Enter name">
+            </label>
+
+            <label for="card-number">Card number
+                <input type="text" id="card-number" placeholder="1111 2222 3333 4444" onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"/>
+            </label>
+
+        </div>
+    </div>
+
+
+
+
     <script src="main.js"></script>
 </body>
 
