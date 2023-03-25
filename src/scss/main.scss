@@ -75,14 +75,16 @@ body {
         .duo-info {
             display: flex;
             justify-content: space-between;
-            gap: 1em;
+            // gap: 1em;
 
             >:nth-child(1) {
-                width: 70%;
+                width: calc(70% - 0.5em);
+                // width: 70%;
             }
 
             >:nth-child(2) {
-                width: 30%;
+                width: calc(30% - 0.5em);
+                // width: 30%;
             }
         }
     }
