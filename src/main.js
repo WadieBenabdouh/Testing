@@ -12,7 +12,7 @@ icon2.addEventListener("click", function () {
 });
 
 document.addEventListener("click", function (event) {
-  if (!event.target.closest(".payment-method")) {
+  if (!event.target.closest(".container")) {
     icon1.classList.remove("clicked");
     icon2.classList.remove("clicked");
   }
