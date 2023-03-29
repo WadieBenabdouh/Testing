@@ -37,10 +37,20 @@ body {
             padding: 10px 3em;
             border-radius: 10px;
             cursor: pointer;
-            transition: all .2s;
+            transition: all .1s;
         }
 
         i:hover {
+            background-color: #6b6a6a;
+            color: #fff;
+        }
+
+        .fa-credit-card.clicked {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .fa-paypal.clicked {
             background-color: #000;
             color: #fff;
         }
